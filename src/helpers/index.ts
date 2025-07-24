@@ -1,4 +1,5 @@
 import Constants from "./Constants";
 import Images from "./Images";
+import English from "./English";
 
-export { Constants, Images };
+export { Constants, Images, English };

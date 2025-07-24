@@ -1,6 +1,6 @@
 import gsap from "gsap"
 import { ScrollTrigger, SplitText } from "gsap/all"
-import { Navbar } from "@components"
+import { Hero, Navbar } from "@components"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
@@ -12,6 +12,8 @@ const App = () => {
                 <Route path="/" element={
                     <main>
                         <Navbar />
+                        <Hero />
+                        <div className="dvh bg-black" />
                     </main>
                 } />
             </Routes>
